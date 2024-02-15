@@ -13,10 +13,10 @@
 
 
     <aside>
-        <div id="cotainer">
+        <div id="coteiner">
             <div id="form-title">
                 <p>Bem-vindo de volta</p>
-                <h1>Faça seu Login</h1>
+                <h1>Faça login na sua conta</h1>
             </div>
             <form>
                 <label for="email">E-mail</label>
@@ -24,19 +24,24 @@
                 <label for="senha">Senha</label>
                 <input type="password" name="senha" id="senha" placeholder="0123456789">
                 <div id="radio-content">
-                    <input type="radio" name="radio-input" id="radio-input">
-                    <label for="radio-input">Lembre de mim</label>
+                    <div id="radio-coteiner">
+                        <input type="radio" name="radio-input" id="radio-input">
+                        <label for="radio-input">Lembre de mim</label>
+                    </div>  
+                    <a href="#">Esqueceu a senha?</a>
                 </div>
-                <a href="#">Esqueceu a senha?</a>
+                
                 <div id="cotainer-btn">
-                    <button>Entrar na conta</button>
-                    <button>
+                    <button class="btn" id="btn1">Entrar</button>
+                    <button class="btn" id="btn2">
                         <img src="./img/inconG.svg">
-                        Ou faça login com o Google
+                        <p>Ou faça login com o Google</p>
                     </button>
                 </div>
-                <p>Não tem conta? <a href="#">Cadastre-se</a></p>
             </form>
+            <div id="cotainer-bottom">
+                <p>Não tem conta? <a href="#">Cadastre-se</a></p>
+            </div>
         </div>
     </aside>
 
